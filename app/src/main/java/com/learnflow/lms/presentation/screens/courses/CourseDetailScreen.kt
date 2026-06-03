@@ -370,7 +370,7 @@ fun LessonItem(
                         "video" -> Icons.Default.PlayArrow
                         "quiz" -> Icons.Default.Quiz
                         "document" -> Icons.Default.Description
-                        else -> Icons.Default.Lesson
+                        else -> Icons.Default.Note
                     },
                     contentDescription = null,
                     tint = if (lesson.isCompleted) Color.White else PrimaryAmber,

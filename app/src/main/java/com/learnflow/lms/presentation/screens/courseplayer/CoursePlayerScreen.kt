@@ -3,6 +3,7 @@ package com.learnflow.lms.presentation.screens.courseplayer
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -350,7 +351,7 @@ fun LessonInfo(
                         "video" -> Icons.Default.PlayArrow
                         "quiz" -> Icons.Default.Quiz
                         "document" -> Icons.Default.Description
-                        else -> Icons.Default.Lesson
+                        else -> Icons.Default.Note
                     },
                     contentDescription = null,
                     modifier = Modifier.size(16.dp),
@@ -487,7 +488,7 @@ fun RelatedLessonItem(
                         "video" -> Icons.Default.PlayArrow
                         "quiz" -> Icons.Default.Quiz
                         "document" -> Icons.Default.Description
-                        else -> Icons.Default.Lesson
+                        else -> Icons.Default.Note
                     },
                     contentDescription = null,
                     tint = if (lesson.isCompleted) Color.White else PrimaryAmber,
