@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#1E1B4B"
+        android:pathData="M0,0 L48,0 L48,48 L0,48 Z"/>
+    <!-- Inner circle -->
+    <path
+        android:fillColor="#312E81"
+        android:pathData="M24,4 A20,20 0 1,1 23.999,4 Z"/>
+    <!-- Open book -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,12 C24,12 16,14 13,17 L13,35 C13,35 21,32 24,34 C27,32 35,35 35,35 L35,17 C32,14 24,12 24,12 Z"/>
+    <!-- Spine -->
+    <path
+        android:fillColor="#C7D2FE"
+        android:pathData="M23,13 L23,34 L25,34 L25,13 Z"/>
+    <!-- Left lines -->
+    <path
+        android:fillColor="#818CF8"
+        android:strokeWidth="1.2"
+        android:pathData="M16,20 L22,18.5"/>
+    <path
+        android:fillColor="#818CF8"
+        android:strokeWidth="1.2"
+        android:pathData="M16,23 L22,21.5"/>
+    <path
+        android:fillColor="#818CF8"
+        android:strokeWidth="1.2"
+        android:pathData="M16,26 L22,24.5"/>
+    <!-- Right lines -->
+    <path
+        android:fillColor="#818CF8"
+        android:strokeWidth="1.2"
+        android:pathData="M26,18.5 L32,20"/>
+    <path
+        android:fillColor="#818CF8"
+        android:strokeWidth="1.2"
+        android:pathData="M26,21.5 L32,23"/>
+    <path
+        android:fillColor="#818CF8"
+        android:strokeWidth="1.2"
+        android:pathData="M26,24.5 L32,26"/>
+</vector>
