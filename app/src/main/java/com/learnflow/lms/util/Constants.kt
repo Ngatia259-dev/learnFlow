@@ -15,7 +15,7 @@ object Constants {
     const val PASSING_SCORE = 70
 
     // Achievement thresholds
-    const val STREAK_MILESTONES = listOf(7, 14, 30, 60, 90, 180, 365)
-    const val LESSON_MILESTONES = listOf(10, 25, 50, 100, 200, 500)
-    const val QUIZ_MILESTONES = listOf(5, 10, 25, 50, 100)
+    val STREAK_MILESTONES = listOf(7, 14, 30, 60, 90, 180, 365)
+    val LESSON_MILESTONES = listOf(10, 25, 50, 100, 200, 500)
+    val QUIZ_MILESTONES = listOf(5, 10, 25, 50, 100)
 }
